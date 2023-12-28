@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>      
 <?php
-echo "My first PHP script!";
-?> 
-
-</body>
-</html>
-
+//Return curent date from the romote sever
+$today = date("d/m/y");
+echo $today;
+?>
